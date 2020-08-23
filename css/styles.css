@@ -1,0 +1,368 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+/*Top Section------------------------*/
+
+.top {
+  background-color: white;
+  padding-top: 3%;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h4 {
+  color: black;
+
+
+  padding-top: 2%;
+}
+
+
+
+h2 {
+
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 2%;
+  padding-bottom:2 %;
+  font-size: 10vw;
+}
+
+
+
+.benefits {
+  padding-top: 3%;
+
+  line-height: 1.5;
+  text-align: left;
+   font-family: 'Roboto',sans-serif;
+}
+
+
+
+.image-fluid {
+  padding-left: 10%;
+  border-radius: 50px;
+  border-color: black;
+  width: 100%;
+  height: auto;
+
+}
+
+.responsive {
+  width: 50%;
+  height: auto;
+}
+
+.conatiner {
+  width: 100%;
+  overflow: hidden;
+}
+
+/*Middle Section-------------------------*/
+
+.middle {
+  background-color:#f3f1f1;
+
+  padding-top: -4%;
+  padding-bottom: -4%;
+}
+
+.motivation {
+  font-size: 2.5vm;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.about{
+
+  text-align: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 20px;
+}
+
+
+
+div.transbox {
+  margin: 30px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.6;
+  border-radius: 12px;
+  border-color: white;
+
+}
+
+div.transbox p {
+  margin: 5%;
+  font-family: georgia, serif;
+  color: #000000;
+
+}
+
+div.transbox h3{
+  font-family: 'Roboto',sans-serif;
+  color: black;
+}
+
+
+
+.quality{
+  text-align: center;
+}
+
+p {
+  padding-top: 2%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  line-height: 1.53;
+  text-align: left;
+}
+
+.white-box {
+    background-color: white;
+    color: black;
+    <!--other positioning attributes-->
+    border-radius: 8px;
+}
+
+/*Testimonial Section---------------*/
+#test{
+  text-align: center;
+  padding-bottom: 2%;
+}
+.col-md-4{
+  margin: 70px auto;
+  width: 400px;
+  float: left;
+}
+.profile{
+  padding: 70px 10px 10px;
+  background-color: white;
+
+
+}
+
+.profile img{
+  top: -60px;
+  position: absolute;
+  left: calc(50% - 60px);
+  border: 10px solid white;
+  border-radius: 50%;
+
+}
+
+.user{
+  width: 120px;
+  height: 120px
+  border-radius: 50%;
+
+
+
+}
+
+.profile h3{
+  font-size: 20px;
+  margin-top: 5px;
+  color: black;
+  font-weight: bold;
+   font-family: 'Roboto',sans-serif;
+}
+
+.profile h4{
+  margin-top: 5px;
+  color: black;
+font-size: 15px;
+   font-family: 'Roboto',sans-serif;
+   text-align: center;
+}
+
+
+blockquote{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*Client Section----------------------*/
+
+.con h3{
+     font-family: 'Roboto',sans-serif;
+     text-align: center;
+}
+
+#est h3 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.carousel {
+  background: white;
+  padding-bottom: 5%;
+
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.carousel-cell {
+
+
+  background: #8C8;
+  border-radius: 5px;
+
+  width: 110px;
+  height: 110px;
+ margin-right: 10px;
+}
+
+.flickity-page-dots {
+  bottom: 0px;
+  padding-bottom: 2%;
+  margin: auto;
+  padding-right: 18%;
+}
+
+.carousel-cell.is-selected {
+  background: #ED2;
+
+}
+
+
+
+
+
+.carousel-cell img {
+  display: block;
+  max-height: 100%;
+  margin: auto;
+  width: 100%;
+}
+
+
+/*footer*/
+
+
+.copy{
+  font-family: 'Roboto',sans-serif;
+  padding: 4% 8%;
+}
+
+
+
+.copy .pr{
+  text-align: right;
+  margin-top: -30px;
+}
+
+.free{
+  color: red;
+}
+
+.con{
+  color: white;
+}
+
+/*Responsive Section--------------------*/
+
+
+@media screen and ( min-width: 768px ) {
+  /* half-width cells for larger devices */
+  .carousel-cell { width: 50%; }
+}
+
+@media screen and ( min-width: 1500px ) {
+  /* half-width cells for larger devices */
+  .carousel-cell { width: 20%; }
+}
+
+@media screen and (max-width: 900px) {
+  .top {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .benefits{
+    text-align: center;
+    font-size: 15px;
+
+  }
+  }
+
+  @media screen and (max-width: 900px) {
+     .image-fluid{
+       width: 100%;
+       padding-right: 10%;
+     }
+    }
+
+  @media screen and (max-width: 900px) {
+    .about {
+
+      text-align: center;
+      font-size: 12px;
+
+    }
+  }
+
+@media screen and (max-width: 900px) {
+  .top h3{
+    font-size: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .copy h5 {
+
+  padding: 4% 8%;
+
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+.copy .pr{
+
+  text-align: center;
+
+}
+}
+
+@media screen and (max-width: 900px) {
+ #est .container h3{
+
+  text-align: center;
+
+}
+}
+
+@media screen and (max-width: 900px) {
+ .transbox p{
+   font-size: 12px;
+ }
+}
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@@media screen and (max-width: 900px) {
+  h1 h5{
+  text-align:center;
+  }
+}
